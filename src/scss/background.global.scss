@@ -1,0 +1,38 @@
+$light_secondary_bg_col: rgb(241, 241, 241);
+$light_bg_col: #ececf0;
+$net_shadow: #a4a4a4;
+// $primary_color: #00b8d4;
+// $primary_color_dark: #0088a3;
+$primary_color: #6998d0;
+$primary_color_dark: #0088a3;
+
+$default_border_radius: 13px;
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+  font-family: 'Varela Round', sans-serif;
+  background: $light_bg_col;
+
+}
+.card{
+  transition: box-shadow 0.4s ease;
+  margin-bottom: 20px;
+  border-radius: $default_border_radius;
+  // background-color: $light_secondary_bg_col;
+  box-shadow: 0px 8px 10px $net_shadow;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  // box-shadow: 0px 0px 11px 11px rgba(34, 60, 80, 0.2);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary_color;
+  // border-radius: 5px;
+  // box-shadow: 0px 0px 11px 11px $primary_color;
+}

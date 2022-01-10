@@ -1,0 +1,14 @@
+$default_border_radius: 13px;
+
+$primary_input_border_color: #8100B0;
+
+input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logout_button{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

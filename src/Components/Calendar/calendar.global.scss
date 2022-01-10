@@ -1,0 +1,14 @@
+$default_border_radius: 13px;
+$net_shadow: #a4a4a4;
+$defauld_shadow: 0px 8px 10px $net_shadow;
+
+img{
+  width: 100%;
+  border-radius: 13px;
+}
+.custom_card{
+  margin-top: 20px;
+  box-shadow: $defauld_shadow;
+  border-radius: 13px;
+  height: 490px;
+}

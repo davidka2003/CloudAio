@@ -1,0 +1,97 @@
+$default_border_radius: 13px;
+
+// $primary_color: #00b8d4;
+$primary_color: #6998d0;
+$primary_color_dark: #638ec4;
+$primary_input_background_color: #6E6E6E;
+
+
+.net_input{
+  outline: none;
+  border-radius: $default_border_radius;
+  color: $primary_color_dark;
+  border: 2px solid transparent;
+  padding: 8px 20px;
+  text-decoration: none;
+  transition: all 0.7s ease;
+  &:focus{
+    box-shadow: 0 0 10px $primary_color;
+    border: 2px solid $primary_color;
+  }
+}
+
+.card {
+  .net_input{
+    border: 1px solid $primary_color;
+  }
+}
+
+.net_select{
+  border-radius: $default_border_radius;
+  color: $primary_color;
+  border: 2px solid transparent;
+  padding: 8px 20px;
+  width: 100%;
+  outline: none;
+  transition: all 0.7s ease;
+  &:focus{
+    box-shadow: 0 0 10px $primary_color;
+    border: 2px solid $primary_color;
+  }
+}
+
+
+
+
+.net_radio {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid transparent;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  margin-left: 0;
+  background-color: white;
+
+  position: relative;
+  top: 15px;
+  &:checked {
+    box-shadow: 0 0 9px $primary_color;
+    border: 6px solid $primary_color;
+  }
+
+}
+
+.net_checkbox{
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 10%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid transparent;
+  transition: 0.1s all linear;
+  margin-right: 5px;
+  margin-left: 0;
+  background-color: white;
+
+  position: relative;
+  top: 15px;
+  &:checked {
+    border-radius: 30%;
+    border: 6px solid $primary_color;
+    box-shadow: 0 0 3px $primary_color;
+
+  }
+}
+
+

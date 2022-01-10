@@ -1,0 +1,155 @@
+$default_border_radius: 13px;
+
+// $primary_button_color: #8100B0;
+// $primary_color: #00b8d4;
+$primary_color: #6998d0;
+$primary_color_dark: #0088a3;
+
+$secondary_color: #757575;
+$secondary_color_light: #a4a4a4;
+
+$success_color: #41c975;
+
+$danger_button_color: #c00101;
+
+
+
+button{
+  outline: none;
+}
+.net_button_primary{
+  background-color: $primary_color;
+  border-radius: $default_border_radius;
+  border: 2px solid transparent;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover{
+    background-color: Transparent;
+    border-radius: $default_border_radius;
+    border: 2px solid $primary_color;
+    color: $primary_color;
+    text-align: center;
+    text-decoration: none;
+  }
+  &:active{
+    transform: translate(0,5px);
+    box-shadow: 0 0 10px $primary_color;
+  }
+}
+
+.net_button_danger{
+  background-color: $danger_button_color;
+  border-radius: $default_border_radius;
+  border: 2px solid transparent;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover{
+    background-color: Transparent;
+    border-radius: $default_border_radius;
+    border: 2px solid $danger_button_color;
+    color: $danger_button_color;
+    text-align: center;
+    text-decoration: none;
+  }
+  &:active{
+    transform: translate(0,5px);
+    box-shadow: 0 0 10px $danger_button_color;
+  }
+}
+
+.net_button_success{
+  background-color: $success_color;
+  border-radius: $default_border_radius;
+  border: 2px solid transparent;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover{
+    background-color: Transparent;
+    border-radius: $default_border_radius;
+    border: 2px solid $success_color;
+    color: $success_color;
+    text-align: center;
+    text-decoration: none;
+  }
+  &:active{
+    transform: translate(0,5px);
+    box-shadow: 0 0 10px $success_color;
+  }
+}
+
+.net_button_secondary{
+  background-color: $secondary_color;
+  border-radius: $default_border_radius;
+  border: 2px solid transparent;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover{
+    background-color: Transparent;
+    border-radius: $default_border_radius;
+    border: 2px solid $secondary_color;
+    color: $secondary_color;
+    text-align: center;
+    text-decoration: none;
+  }
+  &:active{
+    transform: translate(0,5px);
+    box-shadow: 0 0 10px $secondary_color;
+  }
+}
+
+.icon_button{
+  background-color: Transparent;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  &:hover{
+    fill: $secondary_color;
+  }
+}
+
+.edit_icon_button{
+  background-color: Transparent;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  &:hover{
+    fill: $secondary_color_light;
+  }
+}
+
+.delete_icon_button{
+  background-color: Transparent;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  &:hover{
+    fill: $danger_button_color;
+  }
+}
+
+.carousel-control-next{
+  svg{
+    fill: $secondary_color;
+  }
+  &:hover{
+    fill: $secondary_color_light;
+  }
+}
+
+.carousel-control-prev{
+  svg{
+    fill: $secondary_color;
+  }
+  &:hover{
+    fill: $secondary_color_light;
+  }
+}
